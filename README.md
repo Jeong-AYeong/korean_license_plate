@@ -1,11 +1,12 @@
 # korean_license_plate
 차량 번호판(한글)을 텍스트로 변환  
-
+***
   
 ## 💻 프로젝트 소개
 영상에서 차량 번호판을 detect하고 ocr을 이용해 텍스트로 변환하는 프로젝트입니다.
 <br>
 
+***
   
 ## 🔧개발 환경
 - 'tensorflow-gpu == 2.5.0'
@@ -17,7 +18,7 @@
 - easydict
 - pillow
   
-   
+***
   
 ## 🔗실행방법
 ```
@@ -26,7 +27,7 @@ python detectvideo.py --framework tflite --weights ./checkpoints/yolov4-416.tfli
 [VIDEO_PATH]에는 차량 번호판을 식별하려는 영상의 위치와 영상의 이름을 작성하시면 됩니다.  
 
 
-      
+***   
 
 ## 실행결과
 ![image](https://github.com/Jeong-AYeong/korean_license_plate/assets/87751593/81d799c3-f367-49c5-87be-5318a0d2aa8d)   
@@ -40,3 +41,6 @@ python detectvideo.py --framework tflite --weights ./checkpoints/yolov4-416.tfli
 * CarNum_List.txt파일에 인식된 번호판이 저장됩니다.    
   
 ## Demo 영상
+#### 🎥original video
+
+#### 🎥detect video
