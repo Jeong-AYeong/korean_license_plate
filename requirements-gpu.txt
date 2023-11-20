@@ -1,0 +1,8 @@
+tensorflow-gpu==2.5.0
+opencv-python
+lxml
+tqdm
+absl-py
+matplotlib
+easydict
+pillow
